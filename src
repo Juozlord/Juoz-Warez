@@ -4,7 +4,7 @@ if not LPH_OBFUSCATED then
     LPH_NO_VIRTUALIZE = function(...) return(...) end;
 end
 
-if game.PlaceId == 11468075017 then
+if game.PlaceId == 11468075022 then
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {Title = "Main Menu"; Text = "HAHA YOUR NAKED NOW"; Duration = 60; Button1 = "Ok"; })
 local args = {[1] = "Change_Value",[2] = game:GetService("ReplicatedStorage").Player_Data[game.Players.LocalPlayer.name].Customization.Clothes.Shirt.Index,[3] = -17}game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
