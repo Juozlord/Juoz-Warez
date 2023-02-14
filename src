@@ -4,6 +4,7 @@ if not LPH_OBFUSCATED then
     LPH_NO_VIRTUALIZE = function(...) return(...) end;
 end
 
+
 if game.PlaceId == 11468075022 then
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {Title = "Main Menu"; Text = "HAHA YOUR NAKED NOW"; Duration = 60; Button1 = "Ok"; })
